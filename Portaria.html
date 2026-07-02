@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Preconnect to improve loading speed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.moovelube.com/wp-content/smush-webp/2025/08/cropped-Favicon-1-32x32.png.webp" sizes="32x32" data-smush-webp-fallback="{&quot;href&quot;:&quot;https:\/\/www.moovelube.com\/wp-content\/uploads\/2025\/08\/cropped-Favicon-1-32x32.png&quot;}" />
+    <link rel="icon" href="https://www.moovelube.com/wp-content/smush-webp/2025/08/cropped-Favicon-1-192x192.png.webp" sizes="192x192" data-smush-webp-fallback="{&quot;href&quot;:&quot;https:\/\/www.moovelube.com\/wp-content\/uploads\/2025\/08\/cropped-Favicon-1-192x192.png&quot;}" />
+    <link rel="apple-touch-icon" href="https://www.moovelube.com/wp-content/smush-webp/2025/08/cropped-Favicon-1-180x180.png.webp" data-smush-webp-fallback="{&quot;href&quot;:&quot;https:\/\/www.moovelube.com\/wp-content\/uploads\/2025\/08\/cropped-Favicon-1-180x180.png&quot;}" />
+    <meta name="msapplication-TileImage" content="https://www.moovelube.com/wp-content/uploads/2025/08/cropped-Favicon-1-270x270.png" />
+    <title>Portaria | Centro de Controle</title>
+    <style>
+      /** CSS RESET **/
+      *{
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1;
+    list-style: none;
+    text-decoration: none;
+}
+      img {
+  max-width: 100%;
+  height: auto;
+}
+      /** HEADER **/
+      header{
+        background:white;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    height:80px;
+    padding:2px 8px 2px 8px;
+    border-bottom: 2px solid #AACD00;
+  }
+  .dropLogo{
+    display:flex;
+    align-items: center;
+   
+  }
+  .drop{padding-right: 10px;}
+  
+  .logo img{
+    height:50px;
+  }    
+  .menu{
+  border:1px grey;
+  width:70%;
+  height:98%;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  }
+  .title{
+   font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size:400%;
+  color:#0C3c5d;
+  font-style: normal;
+  margin-right:4%;
+}
+
+/**CONTAINER**/
+.container{
+	  height:90vh;
+	  background-color:#0C3C5D;
+	  background: url(https://moovelub.com/sustentabilidade/assets/moove_video.mp4);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+}
+.guide{
+ /**margin-bottom:20%;**/
+ padding:2%;
+ width:70vw;
+ margin-left:2%;
+ display: flex;
+  flex-wrap: wrap;
+}
+/**button*/
+
+/**video**/
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Forces the video to cover the screen without stretching */
+  z-index: -1;       /* Places the video behind your content */
+}
+/* From Uiverse.io by alexmaracinaru */ 
+button {
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  margin-right:1em;
+  margin-bottom:1em;
+  background: #AACD00;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  COLOR:#FFF;
+  font-size: 25px;
+  width:500px;
+}
+
+button:hover {
+  background: #edf1ea;
+  color:#0C3C5D;
+}
+
+button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+/** MENU DROPDOWN **/
+ul li {
+	position: relative;
+	}
+li ul {
+	position: absolute;
+	left: 16px;
+	top:40px;
+	display: none;
+	}	
+	li ul li{
+	 
+	}
+ul li a {
+	display: block;
+	text-decoration: none;
+	width:350px;
+	font-family: "DM Sans", sans-serif;
+	font-size:1.5rem;
+	padding:4px 2px;
+	color: #777;
+	background: #fff;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	}
+	
+	li:hover ul, li.over ul { 
+	display: block; 
+	}
+	li ul:hover{
+	  transition:all .10s ease;
+	}
+	
+	ul li a:hover{
+	  transition: all .7s ease;
+	  background:#0c3c5d;
+	  border-bottom:2px solid #AACD00;
+	  color: white;
+	}
+
+	
+  /**MEDIA QUERIES **/
+  @media (min-width: 20px) and (max-width:767px){
+    .moovelogo{
+      display:none;
+    }
+    .title{
+      font-size:100%;
+    }
+    button{
+      font-size:20px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px){
+    .moovelogo{
+    display:none;
+    }
+    .title{
+       font-size:200%;
+     }
+     button{
+        font-size:20px;
+      }
+    .title{
+      font-size:150%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1280px){
+    
+  }
+  
+   @media (min-width: 768px) and (max-width: 1280px){
+     .title{
+       font-size:250%;
+     }
+     .logo img{
+    height:40px;
+  } 
+     
+   }
+    </style>
+</head>
+<body>
+    <header>
+      <div class="dropLogo">
+      <ul><!--dropdown-->  
+        <li><span class="drop">
+                <img src="https://www.moovelube.com/wp-content/uploads/2025/05/drop_gfx.svg" />
+          <ul class="trans"> 
+            <li><a href="https://minhaticloud-my.sharepoint.com/:l:/g/personal/cs158089_minhati_com_br/JAAp-IU6YvSASKhi55xlHo3hAZD8CO0-AyVjpNMcUSM0esk?e=pKZK1l" target="_blank">RELAÇÃO DE NOTEBOOK</a></li> 
+            <li><a href="https://minhaticloud-my.sharepoint.com/:l:/g/personal/cs158089_minhati_com_br/JADd-0BCIQR9QKYU17O6AkmAAZrGfPZVXQ83zNOzsp2_3aI?e=tUOnBI" target="_blank">RELAÇAO DE MERCADORIAS</a></li> 
+            <li><a href="https://minhaticloud-my.sharepoint.com/:l:/g/personal/cs158089_minhati_com_br/JABwFn9RUHYCQpw2S08vnecPAYahwZPuHdL2xFjlDeijqhs?e=s4MqYR" target="_blank">PERNOITES</a></li> 
+            <li><a href="#">TAGS DE ESTACIONAMENTO</a></li>
+            <li><a href="#">CLAVICULÁRIO</a></li>
+            <li><a href="https://minhaticloud-my.sharepoint.com/:l:/g/personal/cs158089_minhati_com_br/JADSE6Lq_dJ3SowmtSCNsdsYAZuSmUdbd5gBVtUzL4LPBe0?e=Biedbz"target="_blank">MOTORISTAS BLOQUEADOS</a></li>
+            <li><a href="#">OPERAÇÃO MARÍTIMA</a></li>
+        </ul> 
+        </span></li>
+      </ul><!--dropdown--> 
+        
+        <div class="logo">
+          <nav class="navigation">
+            <img class="moovelogo" src="https://moovelub.com/assets/images/logos/logo-moove-azul.png" />
+          </nav>
+        </div><!--logo-->
+      </div><!--dropLogo-->  
+      <div class="menu">
+          <h1 class="title">Portaria | Unidade de Segurança</h1>
+          
+      </div><!--menu-->
+    </header>
+    <div class="container">
+      <video autoplay muted loop playsinline id="bg-video">
+  <source src="https://moovelub.com/sustentabilidade/assets/moove_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+    <div class="guide">
+    <!-- From Uiverse.io by alexmaracinaru --> 
+    <a href="https://apps.powerapps.com/play/e/default-e7c411a6-9013-4967-a5b1-3d08f9edc13e/a/ec369662-9e82-4e0b-9e6e-dc3817347237?tenantId=e7c411a6-9013-4967-a5b1-3d08f9edc13e&hint=7ff0dd99-5d07-4b32-bbcc-df6c6a891ef9&sourcetime=1783009733108" target="_blank">
+        <button><!--Controle de Notebooks-->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 74 74"
+            height="34"
+            width="34"
+          >
+          <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+          <path
+            fill="black"
+            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+          ></path>
+          </svg>
+          <span>Controle de Notebooks</span>
+        </button>
+      </a>
+      
+      <a href="https://apps.powerapps.com/play/e/default-e7c411a6-9013-4967-a5b1-3d08f9edc13e/a/9764e74f-396d-429c-a7d7-9a39406ae57e?tenantId=e7c411a6-9013-4967-a5b1-3d08f9edc13e&hint=1f5ace0a-a72c-4c1c-8371-8b848df7a429&sourcetime=1783009957510" target="_blank">
+         <button><!--Mercadoris sem Nota Fiscal-->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 74 74"
+            height="34"
+            width="34"
+          >
+          <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+          <path
+            fill="black"
+            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+          ></path>
+        </svg>
+        <span>Mercadoria sem Nota Fiscal</span>
+      </button>
+    </a>
+    
+<button><!--Tags de Veículos-->
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 74 74"
+    height="34"
+    width="34"
+  >
+    <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+    <path
+      fill="black"
+      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+    ></path>
+  </svg>
+  <span>Tags de Veículos</span>
+</button>
+
+  <a href="https://apps.powerapps.com/play/e/default-e7c411a6-9013-4967-a5b1-3d08f9edc13e/a/d600d40d-2ba7-486d-adf4-5ee9eeb9994c?tenantId=e7c411a6-9013-4967-a5b1-3d08f9edc13e&hint=781d96f5-7bcc-4de5-a9a4-88aeea66e12c&sourcetime=1783010254526" target="_blank">
+      <button><!--Caminhões em Pernoite-->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 74 74"
+          height="34"
+          width="34"
+        >
+          <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+          <path
+            fill="black"
+            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+          ></path>
+        </svg>
+        <span>Caminhões em Pernoite</span>
+      </button>
+  </a>
+<button><!--Controle de Chaves-->
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 74 74"
+    height="34"
+    width="34"
+  >
+    <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+    <path
+      fill="black"
+      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+    ></path>
+  </svg>
+  <span>Controle de Chaves</span>
+  </button>
+ 
+  <button><!--Dashboard de Operações-->
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 74 74"
+    height="34"
+    width="34"
+  >
+    <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+    <path
+      fill="black"
+      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+    ></path>
+  </svg>
+  <span>Dashboard de Operações</span>
+</button>
+    </div>
+  </div>
+</body>
+</html>
